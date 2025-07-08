@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    padding: 40px;
+    margin: 34px;
+    border: 5px solid black;
+      position: relative;
+}
+.box{
+    border: 2px solid black;
+    height: 110px;
+    width: 80vw;
+    margin: 3px;
+    padding: 3px;
+}
+.box1{
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+    left: 90px;
+    height: 50px;
+
+}
+.box2{
+    background-color: red;
+    position: fixed;
+    height: 50px;
+    width: 100px;
+    right: 90px;
+}
+.box3{
+    background-color: green;
+    position: relative;
+    top: -16px;
+    left: 120px;
+    z-index: -1;
+}
+.box4{
+    background-color: yellow;
+    position: absolute;
+   right: 20px;
+
+}

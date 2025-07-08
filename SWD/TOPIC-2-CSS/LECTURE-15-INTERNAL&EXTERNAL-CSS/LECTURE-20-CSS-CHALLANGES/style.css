@@ -1,0 +1,20 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+div p:first-child {
+    background-color: yellow;
+    color: red;
+}
+
+p {
+    background-color: blue;
+    color: white;
+}
+
+/* Extra */
+div p:nth-child(3) {
+    background-color: black;
+    color: blue;
+}

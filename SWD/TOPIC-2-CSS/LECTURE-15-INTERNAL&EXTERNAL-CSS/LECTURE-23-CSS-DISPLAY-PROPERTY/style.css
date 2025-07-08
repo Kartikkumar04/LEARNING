@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 3px solid black;
+    display: inline;
+    background-color: lightblue;
+    font-size: 20px;
+    display: flex;
+}
+.inline{
+    border: 3px solid black;
+    display: inline;
+    background-color: lightblue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.inline-block{
+    border: 3px solid black;
+    display: inline-block;
+    background-color: lightblue;
+    font-size: 20px;
+    
+}

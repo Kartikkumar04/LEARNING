@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+    <h1>SIGN UP </h1>
+    <form action="post">
+        <div>
+            <label for="username"> Full Name:</label>
+            <input type="text" id="username" name="username" placeholder="e.g.-KARTIK KUMAR">
+        </div>
+        <br>
+
+        <div>
+            <label for="email" id="email"> Email:</label>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="email" id="email" placeholder="kartikkumar@gmail.com">
+        </div>
+        <br>
+
+        <div>
+            <label for="dob" id="dob">DOB:</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="date" id="dob">
+        </div>
+        <br>
+        <div>
+            Gender:
+            &nbsp; &nbsp; &nbsp;
+            <label for="male" id="gender">Male</label>
+            <input type="radio" id="male" value="gender" name="gender">
+            <label for="female" id="gender">Female</label>
+            <input type="radio" id="female" value="gender" name="gender" a>
+        </div>
+        <br>
+        <div>
+            Country:
+            <select name="country" id="country">
+                <option value="AFRICA">AFRICA</option>
+                <option value="AUSTRALIA">AUSTRALIA</option>
+                <option value="BHUTAN">BHUTAN</option>
+                <option value="CANADA">CANADA</option>
+                <option value="DUBAI">DUBAI</option>
+                <option value="INDIA">INDIA</option>
+                <option value="RUSSIA">RUSSIA</option>
+                <option value="SOUTH KORIA">SOUTH KORIA</option>
+                <option value="PAKISTAN">PAKISTAN</option>
+                <option value="SUJERLAND">SUJERLAND</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address">Enter Your address</textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox">
+            <label for="terms">Terms & Conditions.</label>
+            <a href="https://termsandcontions.com">
+                Read terms & conditions.</a>
+        </div>
+        <br>
+        
+        <br>
+        <div>
+
+            <input type="button" value="Sign up">
+        </div>
+    </form>
+</body>
+
+</html>

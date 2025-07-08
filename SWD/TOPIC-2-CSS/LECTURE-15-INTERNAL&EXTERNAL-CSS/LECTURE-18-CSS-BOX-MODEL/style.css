@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    background-color: blue;
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+
+.box2{
+    background-color: black;
+    color: aqua;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid brown;
+}

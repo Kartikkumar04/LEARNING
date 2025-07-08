@@ -1,0 +1,38 @@
+/* UNIVERSAL SELECTOR */
+*{
+    padding: 10px;
+    margin: 20px;
+}
+
+/* CLASS SELECTOR */
+.class {
+    background-color: greenyellow;
+}
+
+/* ID SELECTOR */
+#id {
+    background-color: purple;
+}
+
+/* CHILD SELECTOR */
+div>p {
+    background-color: blue;
+}
+
+/* DESENDENT SELECTOR */
+div p {
+    background-color: lightskyblue;
+}
+
+/* Pseudo Selector */
+a:visited{
+    color: black;
+}
+
+a:active{
+    background-color: green;
+}
+
+a:hover{
+    background-color: lightblue
+}
