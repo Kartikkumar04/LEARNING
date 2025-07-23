@@ -1,3 +1,4 @@
+#CREATING YOUR FIRST ARRAY.
 import numpy as np
 my_list = [1,2,3,4,5]
 my_array = np.array([1,2,3,4,5])
